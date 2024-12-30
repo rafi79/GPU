@@ -1,0 +1,13 @@
+# Core dependencies
+streamlit>=1.28.0  # Main framework for the web interface
+torch>=2.1.0       # PyTorch for GPU operations
+numpy>=1.24.0      # Required for numerical operations
+python-dotenv>=1.0.0  # For handling environment variables
+
+# System information
+psutil>=5.9.0      # For system resource monitoring
+gputil>=1.4.0      # For GPU monitoring utilities
+
+# Optional but recommended for better visualization
+plotly>=5.18.0     # For interactive visualizations if you expand the app
+pandas>=2.1.0      # For data handling and manipulation
